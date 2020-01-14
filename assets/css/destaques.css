@@ -23,7 +23,31 @@
     background-repeat: no-repeat;
     background-size: cover;
     grid-column-start: 4;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 1;
-    grid-row-end: 1;
+    grid-row-end: 2;
+}
+
+.destaques__secundario:nth-child(3) {
+    background: url('../img/slack.png') center / cover no-repeat;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+.destaques__secundario:nth-child(4) {
+    background: url('../img/whatsapp.png') center / cover no-repeat;
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+.destaques__secundario:nth-child(5) {
+    background: url('../img/cs-go.jpg') center / cover no-repeat;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+.destaques__secundario:nth-child(6) {
+    background: url('../img/cs-go.jpg') center / cover no-repeat;
+    grid-column: 3/4;
+    grid-row: 3/4;
 }
